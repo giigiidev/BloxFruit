@@ -8,7 +8,7 @@ for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
 		table.insert(tools, v.Name)
 	end
 end
-local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/giigiidev/BloxFruit/main/lib.lua"))()
 local window = ui.CreateLib("Blox Fruits", getgenv().ThemeOption)
 
 local customColors = {
